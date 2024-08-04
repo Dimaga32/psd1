@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_flex{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.left{
+    width: 50vw;
+
+}
+.right{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: 9fr 1fr;
+    padding: 75px 80px 40px 80px;
+    width: 50vw;
+    background-image: url(https://i.artfile.ru/2048x1365_1419130_[www.ArtFile.ru].jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 40px;
+}
+
+.right input{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px white solid;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    outline: none ;
+    justify-self: end;
+    align-self: flex-start;
+}
+.right input:focus::-webkit-input-placeholder{
+outline-style: none;
+color: transparent;
+
+}
+.right input::-webkit-input-placeholder{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+}
+.logos{
+    display: flex;
+    justify-self: end;
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 110px;
+}
+.logos a {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 12px;
+    display: inline-block;
+}
+.im1{
+    background-image: url(https://pluspng.com/img-png/twitter-png-twitter-icon-1600.png);
+}
+.right p{
+    color: white;
+    font-size: 18px;
+    width: 60%;
+    height: 150px;
+    overflow: hidden;
+}
+.im1{
+    background-image: url('twitter-png-twitter-icon-1600.png');
+    background-size:20px ;
+    background-position: 5px;
+    background-repeat: no-repeat;
+}
+.im2{
+    background-image: url('136-1367128_transparent-background-facebook-png.png');
+    background-size:12px ;
+    background-position: 9px;
+    background-repeat: no-repeat;
+}
+.im3{
+    background-image: url('7dbd0b51c20a695901a84c4c083500f6.png');
+    background-size:32px ;
+    background-position: -1px;
+    background-repeat: no-repeat;   
+}
+.left .logo{
+    display: flex;
+    float: right;
+    background-image: url('png-clipart-computer-icons-restaurant-cafe-graphic-miscellaneous-logo-transformed.png');
+    background-size:200px ;
+    background-position: -10px;
+    vertical-align: bottom;
+    background-repeat: no-repeat;   
+    height: 200px;
+    width: 200px;
+    align-items: flex-end;
+    text-decoration: none;
+    justify-content: center;
+}
+.left .logo p{
+    align-self: flex-end;
+    position: relative;
+    left: -10px;
+    font-size: 25px;
+    font-weight: 900;
+    top: -20px;
+    color: black;
+    text-decoration: none;
+}
+.food span{
+    background-size:cover ;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+.food .span1{background-image: url('https://i.pinimg.com/originals/0e/ed/c9/0eedc9e9a5104635d84d3b06b3e162b5.jpg');}
+.food .span2{background-image: url('https://www.funnyart.club/uploads/posts/2022-10/1666300502_1-www-funnyart-club-p-blyudo-kartinki-krasivo-1.jpg');}
+.food .span3{background-image: url('https://wallpaper.forfun.com/fetch/b5/b524370421f7498ff97f82f4fe3922ac.jpeg');}
